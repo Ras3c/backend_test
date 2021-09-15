@@ -1,0 +1,30 @@
+@api = http://localhost:3000/tasks
+
+Get {{api}}
+
+###
+GET {{api}}/2
+
+###
+get {{api}}/count
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "title": "I must create an app",
+    "description": "using android "
+}
+
+###
+DELETE {{api}}/6
+
+###
+PUT {{api}}/3
+Content-Type: application/json
+
+{
+    "title": "Description Updated",
+    "description": "new title"
+}
